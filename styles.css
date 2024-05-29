@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Ubuntu';
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+.container-title{
+    padding: 30px;
+    background-color: #eee;
+    margin-bottom: 50px;
+    color: #222;
+
+}
+main{
+    display: flexbox;
+    gap: 30px;
+
+    margin-bottom: 60px;
+
+}
+
+
+.container-info-product{
+    flex: 1;
+}
+
+@media screen and (max-width:480px) and (max-width:768px)
+
+{    
+
+    *{
+
+        margin:  0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    body{
+        font-family: 'Ubuntu';
+        max-width: 1500px;
+        margin: 0 auto;
+        background-color: #212421;
+    }
+    
+    img{
+        max-width: 90%;
+        margin-bottom: 100px;
+    }
+    
+    header{
+        display: flex;
+        align-items: center;
+        padding: 80px;
+        justify-content: center;
+    }
+    .container-title{
+        padding: 80px;
+        background-color: #a0f4ff;
+        margin-bottom: 100px;
+        color: #222;
+    
+    }
+    main{
+        display: flex;
+        gap: 30px;
+    
+        margin-bottom: 60px;
+    
+    }
+    
+    
+    .container-info-product{
+        flex: 1;
+    }
+}
